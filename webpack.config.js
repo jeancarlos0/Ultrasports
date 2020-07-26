@@ -30,6 +30,9 @@ module.exports = {
         },),
 
     ],
+    node: {
+        fs: 'empty'
+    }
     /*
     module: {
         loaders: [

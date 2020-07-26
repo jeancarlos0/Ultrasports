@@ -16,6 +16,7 @@ body{
     top: 24px;
     left: 12%;
 }
+
 .play{
     position: absolute;
     margin: auto;
@@ -47,4 +48,34 @@ body{
     font-weight: lighter;
     letter-spacing: 2px;
     margin: 0 25%;
+}
+
+@media(max-width: 800px){
+    .headline-container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .play{
+        top: 70%;
+        margin: auto;
+    }
+    .play img{
+        width: 48px;
+    }
+
+    #logo{
+        position: absolute;
+        left: 35%;
+    }
+}
+
+@media(max-width: 600px){
+    .headline-container h1{
+        font-size: 2rem;
+    }
+    .headline-container p{
+        font-size: 1rem;
+    }
+    
 }

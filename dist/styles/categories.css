@@ -13,11 +13,6 @@ body{
     justify-content: center;
 }
 
-.category img{
-    height: 100vh;
-    width: 100%;
-}
-
 .category a{
     text-decoration: none;
     font-size: 3rem;
@@ -47,4 +42,16 @@ body{
     url('../Assets/images/bg-atletismo.jpg');
     background-size: cover;
     height: 100vh;
+}
+
+@media(max-width: 700px){
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .category a{
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+    }
 }
