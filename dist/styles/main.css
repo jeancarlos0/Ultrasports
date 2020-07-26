@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Assets/images/bg-home.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    position: absolute;
+    height: 24px;
+    top: 24px;
+    left: 12%;
+}
+.play{
+    position: absolute;
+    margin: auto;
+    left: 45%;
+    top: 40%;
+}
+
+.headline-container{
+    width: 50vw;
+    height: 100vh;
+    background-image: linear-gradient( #0F012B, #f12020a1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-container h1{
+    font-size: 3rem;
+    margin: 0 25%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.headline-container p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 0 25%;
+}

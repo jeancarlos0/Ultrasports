@@ -1,0 +1,23 @@
+{
+  "name": "ultrasports",
+  "version": "1.0.0",
+  "description": "ultrasports project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack  --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Carlos",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "dashjs": "^3.1.2"
+  }
+}

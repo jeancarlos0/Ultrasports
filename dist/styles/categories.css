@@ -1,0 +1,50 @@
+body{
+    background: black;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category img{
+    height: 100vh;
+    width: 100%;
+}
+
+.category a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+.category.futebol{
+    background-image:  linear-gradient(to top,#0F012B, #4dd59a85),
+    url('../Assets/images/bg-futebol.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.category.basquete{
+    background-image:  linear-gradient(to top,#0F012B, #f1202081),
+    url('../Assets/images/bg-basket.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.category.atletismo{
+    background-image:  linear-gradient(to top,#0F012B, #ffdd3485),
+    url('../Assets/images/bg-atletismo.jpg');
+    background-size: cover;
+    height: 100vh;
+}
