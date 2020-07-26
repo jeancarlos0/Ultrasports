@@ -1,6 +1,13 @@
 # Ultrasports
 
 
+## Caracteristícas do projeto:
+
+ - Os videos foram processados e armazenados na plataforma **Cloudinary**
+ 
+ - Foi utilizado o **Dash.js** player para ser possível a visualizações nos navegadores atuais
+
+
 Para baixar os pacotes necessários:
 
 `npm install`
